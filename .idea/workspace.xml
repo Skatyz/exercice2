@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37db8fe8-5e14-4a17-842f-f9aa8075cee5" name="Changes" comment="" />
+    <list default="true" id="37db8fe8-5e14-4a17-842f-f9aa8075cee5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/controller/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DogCreateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/view/DogCreateView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/controller/IDogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dogs/view/WelcomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/view/WelcomeView.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +52,26 @@
       <recent name="C:\Users\Félix Bédard\OneDrive - Cégep de Sainte-Foy\Documents\Session 3\Prog objet 2\exerciceDog\src\dogs\ressource" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dogs.Main" />
+      <module name="exerciceDog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dogs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668539297385</updated>
     </task>
+    <task id="LOCAL-00001" summary="R1-R2 depart">
+      <created>1668541245959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668541245959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="R1-R2 depart" />
+    <option name="LAST_COMMIT_MESSAGE" value="R1-R2 depart" />
   </component>
 </project>

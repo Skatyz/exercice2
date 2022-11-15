@@ -1,17 +1,10 @@
 package dogs.view;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Point;
-
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SwingConstants;
-
 import dogs.controller.IWelcomeController;
 import util.image.ImageUtil;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class WelcomeView extends JFrame implements IView {   // Configurer Eclipse pour ignorer les avertissements sur serial Id
 
@@ -52,11 +45,14 @@ public class WelcomeView extends JFrame implements IView {   // Configurer Eclip
 
     private void setUpWelcomePanel() {
         JPanel welcomePanel = new JPanel();
+        JButton signUpButton = new JButton("Inscrire un chien...");
+
         this.add(welcomePanel, BorderLayout.CENTER);  // CENTER -> par défaut
 
         welcomePanel.setLayout(new BorderLayout());   // Strategy pattern: le gestionnaire de mise en forme
         addWelcomePicture(welcomePanel);
         addWelcomeMessage(welcomePanel);
+        addSignUpButton(signUpButton);
     }
 
     private void addWelcomeMessage(JPanel welcomePanel) {
@@ -68,6 +64,12 @@ public class WelcomeView extends JFrame implements IView {   // Configurer Eclip
         ImageIcon image = ImageUtil.getImageIcon(this, WELCOME_PICTURE);
         JLabel welcomePicture = new JLabel(image);
         welcomePanel.add(welcomePicture, BorderLayout.CENTER);   // CENTER -> par défaut
+    }
+
+    private void addSignUpButton(JButton newButton) {
+        JButton signUpButton = new JButton("Inscrire un chien...");
+        newButton.add(signUpButton, BorderLayout.SOUTH);
+        display();
     }
 
     private void setUpActionPanel() {
