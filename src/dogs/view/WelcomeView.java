@@ -1,5 +1,6 @@
 package dogs.view;
 
+import dogs.controller.IDogController;
 import dogs.controller.IWelcomeController;
 import util.image.ImageUtil;
 
@@ -20,6 +21,8 @@ public class WelcomeView extends JFrame implements IView, ActionListener {   // 
     private static final Dimension DEFAULT_SIZE = new Dimension(475, 530);
 
     private IWelcomeController controller;		// Pas encore utilisé dans cette version...
+
+    private IDogController dogController;
 
     public WelcomeView(IWelcomeController controller) {
         super(VIEW_TITLE);
@@ -92,8 +95,9 @@ public class WelcomeView extends JFrame implements IView, ActionListener {   // 
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        DogCreateView createDog = new DogCreateView(dogController);
         if (e.getActionCommand().equals(SIGN_UP_DOG)){
-            System.out.println(SIGN_UP_DOG);
+            createDog.display();
         }
         if (e.getActionCommand().equals(LIST_OF_DOG)){
             System.out.println(LIST_OF_DOG);

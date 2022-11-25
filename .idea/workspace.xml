@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37db8fe8-5e14-4a17-842f-f9aa8075cee5" name="Changes" comment="R1-R2 update 1">
+    <list default="true" id="37db8fe8-5e14-4a17-842f-f9aa8075cee5" name="Changes" comment="R1-R2 update 2 R1 Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dogs/controller/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/controller/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dogs/view/DogCreateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/view/DogCreateView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dogs/view/WelcomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dogs/view/WelcomeView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668548236494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="R1-R2 update 2">
+      <created>1668785594825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668785594825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="R1-R2 depart" />
     <MESSAGE value="R1-R2 update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="R1-R2 update 1" />
+    <MESSAGE value="R1-R2 update 2" />
+    <MESSAGE value="R1-R2 update 2 R1 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="R1-R2 update 2 R1 Done" />
   </component>
 </project>
